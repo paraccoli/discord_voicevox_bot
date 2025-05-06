@@ -1,0 +1,37 @@
+{
+    "commands": {
+        "join": {
+            "default": true,
+            "roles": []
+        },
+        "leave": {
+            "default": true,
+            "roles": []
+        },
+        "setup": {
+            "default": true,
+            "roles": []
+        },
+        "pause": {
+            "default": true,
+            "roles": []
+        },
+        "resume": {
+            "default": true,
+            "roles": []
+        },
+        "list_speakers": {
+            "default": true,
+            "roles": []
+        },
+        "set_speaker": {
+            "default": true,
+            "roles": []
+        },
+        "help": {
+            "default": true,
+            "roles": []
+        }
+    },
+    "admin_users": []
+}

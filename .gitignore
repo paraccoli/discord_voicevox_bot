@@ -1,0 +1,37 @@
+# 環境変数ファイル
+.env
+
+# キャッシュ・一時ファイル
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+temp/
+temp/cache/
+stats/hourly/
+
+# ログファイル
+logs/
+*.log
+
+# 仮想環境
+venv/
+ENV/
+env/
+
+# 設定ファイル（個人情報などが含まれる可能性があるものは除外）
+config/user_speakers.json
+config/read_channels.json
+
+# VOICEVOXエンジン関連（大きなバイナリなのでGitで管理しない）
+voicevox_engine/
+
+# OSの生成ファイル
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
